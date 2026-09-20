@@ -7,7 +7,7 @@
 
 | 阶段 | 周 | Day | 内容 |
 | --- | --- | --- | --- |
-| 准备 | — | 第 0 课 | git、环境、生词本（见 `课程/第0课.md`） |
+| 准备 | — | 第 0 课 | git、环境、生词本（见 `课程/第1周/第0课.md`） |
 | 一、语法与建模 | 第 1–6 周 | Day 1–44 | psql 上手 → 类型建模 → 增删改 → 查询 → JOIN → 聚合窗口 |
 | 二、原理与并发 | 第 7–13 周 | Day 45–102 | 索引 → 执行计划 → 百万行实验 → 事务 → 锁 → 项目 → 闭卷 |
 | 三、RAG 前置 | 第 14–16 周 | Day 103–122 | 全文检索 → **Docker** → pgvector |
@@ -22,7 +22,7 @@
 | 天 | 主题 |
 | --- | --- |
 | **周** | 把 PostgreSQL 跑起来，用 `psql` 连上去并看懂它 |
-| Day 1 | 环境三选一（ZIP / Docker / Installer），跑通 `initdb` + `pg_ctl` + 第一条 `SELECT version()` ✅ 产出 `课程/第1课.md`、`速查/PostgreSQL速查.md` |
+| Day 1 | 环境三选一（ZIP / Docker / Installer），跑通 `initdb` + `pg_ctl` + 第一条 `SELECT version()` ✅ 产出 `课程/第1周/第1课.md`、`速查/PostgreSQL速查.md` |
 | Day 2 | `psql` 连接参数（`-U -h -d -p`）、`\l` `\c` `\dt` `\d`；连接失败怎么读报错 |
 | Day 3 | 建库建角色：`CREATE DATABASE` / `CREATE ROLE` / `GRANT` / `REVOKE` / 最小权限 |
 | Day 4 | 数据目录结构：`base/` `pg_wal/` `postgresql.conf` `pg_hba.conf` 各管什么 |
