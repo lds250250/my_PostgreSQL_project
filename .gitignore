@@ -1,0 +1,20 @@
+# PostgreSQL 数据目录和程序都不在仓库里（它们放在 G:\Project\PostgreSQL_pocket\）
+# 下面这些是"万一哪天跑到项目文件夹里"的兜底规则。
+
+# 数据库数据目录
+pgdata/
+pgsql/
+
+# 日志
+*.log
+
+# Python 虚拟环境和缓存（Day 19 起会用）
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 说明：现在不需要 .env —— 数据库在本机、用 trust 认证、没有任何密码和密钥。
+# 等你接上真实项目、代码里出现密码时，再把下面两行加回来：
+# .env
+# .env.local
