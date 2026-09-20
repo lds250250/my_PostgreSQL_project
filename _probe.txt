@@ -1,4 +1,0 @@
-﻿=== 方案1: learn_user 读 pg_authid ===
-=== 方案2: learn_user 在 pg_catalog 建表 ===
-=== 方案3a: learn_user 建角色 ===
-=== 方案3b: postgres 建角色 ===
